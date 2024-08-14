@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Press+Start+2P&display=swap');
+
+body {
+  text-align: center;
+  background-color: #000000;
+}
+
+.header-container {
+  width: 700px;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+}
+
+.level-title {
+  font-family: 'Press Start 2P';
+  font-size: 3rem;
+  margin:  5%;
+  color: #fff;
+}
+
+.subtitle {
+  font-family: 'Press Start 2P';
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+  height: 450px;
+  width: 450px;
+  margin: auto;
+}
+
+.btn {
+  display: inline-block;
+  border: transparent;
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+}
+
+.game-over {
+  background-color: #6e0000;
+}
+
+.red {
+  background-color: #ff0000;
+}
+
+.green {
+  background-color: #00ffdf;
+}
+
+.blue {
+  background-color: #1b1bdf;
+}
+
+.yellow {
+  background-color: #ffff00;
+}
+
+.pressed {
+  opacity: .5;
+}
+
+.pixel {
+  font-family: 'Press Start 2P';
+  font-size: 2rem;
+  padding: 1.5rem 3rem;
+  border: 0;
+  cursor: pointer;
+  box-shadow: -6px 6px 0 0 #00ffdf;
+  transition: box-shadow 200ms ease-in-out;
+  text-transform: uppercase;
+}
+
+.pixel:hover {
+  box-shadow: 0px 0px 0px 5px #00ffdf;
+}
